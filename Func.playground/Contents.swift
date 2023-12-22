@@ -26,7 +26,6 @@ func calculateArea(lenght : Int, width : Int) -> Int {
     return lenght * width
 }
 
-
 let newarea = calculateArea(lenght: 5, width: 4)
 
 let shape1 = calculateArea(lenght: 6, width: 2 )
@@ -58,14 +57,8 @@ func purchaseItem (currentBallence: inout Double, itemPrice: Double) {
 }
 purchaseItem(currentBallence: &bankAccountBalance  , itemPrice: sigourneyWeaveAir)
 
-var retoLunchBox = 40.00
+/*var retoLunchBox = 40.00
 purchaseItem(currentBallence: &sbankAccountBalance, itemPrice: retoLunchBox)
-
-
-
-
-
-
-
+*/
 
 
